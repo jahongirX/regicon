@@ -174,7 +174,26 @@ use yii\widgets\DetailView;
             <?= DetailView::widget([
                 'model' => $model,
                 'attributes' => [
-                    'answer_file',
+                    [
+                        'attribute' => 'answer_file',
+                        'contentOptions' => ['class' => 'v-align-middle'],
+                        'format' => 'html',
+                        'value' => function($data){
+
+                            if($data->file && file_exists(Yii::getAlias('@frontend') . '/web' . Yii::$app->params['uploads_url'] . 'task/' . $data->id . '/' . $data->answer_file)) {
+
+                                $file = Yii::$app->params['frontend'] . Yii::$app->params['uploads_url'] . 'task/' . $data->id . '/' .  $data->answer_file;
+
+                            } else {
+
+                                $file = 'No File!';
+
+                            }
+
+                            return "<a download href=\"". $file. "\">" .  $data->answer_file ."</a>";
+
+                        }
+                    ],
                     'answer_description:ntext',
                 ],
             ]) ?>

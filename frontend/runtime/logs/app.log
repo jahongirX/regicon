@@ -36737,3 +36737,563 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2019-12-15 10:12:37 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'kvdate' does not exist: F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src/messages/Uz-uz/kvdate.php Fallback file does not exist as well: F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src/messages/Uz/kvdate.php
+    in F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src\DatePicker.php:373
+    in F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src\DatePicker.php:398
+    in F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src\DatePicker.php:347
+2019-12-15 10:12:37 [127.0.0.1][1][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'r5brrejn7uiqm5vg2l5lfqg1d3cc2187'
+    '_identity-frontend' => '2c2478204b6fa941e2a8227009b2c7f2ad328cefae88ac52ca3d74d78fd9c802a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"YvwH4Vn2WuCw60QsXd5zXKCIGUd-UmBY\",2592000]\";}'
+    '_csrf-frontend' => 'b45c90c4fc785cb346dfff46d1cf32ff8b0d9812aca8399676196a096e40c35da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fyOcDxyUen1DhCIvRtlxH4bQC0VEYIbn\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'register-success' => -1
+    ]
+    '__returnUrl' => 'http://regicon/'
+    'register-success' => 'Ro\'yxatdan o\'tishni yakunlash uchun, elektron pochtangizni tekshiring!'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'regicon'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://regicon/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=r5brrejn7uiqm5vg2l5lfqg1d3cc2187; _identity-frontend=2c2478204b6fa941e2a8227009b2c7f2ad328cefae88ac52ca3d74d78fd9c802a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22YvwH4Vn2WuCw60QsXd5zXKCIGUd-UmBY%22%2C2592000%5D%22%3B%7D; _csrf-frontend=b45c90c4fc785cb346dfff46d1cf32ff8b0d9812aca8399676196a096e40c35da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fyOcDxyUen1DhCIvRtlxH4bQC0VEYIbn%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP-7.2-x64\\ext;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear\\bin;f:\\openserver\\modules\\php\\PHP-7.2-x64;f:\\openserver\\modules\\imagemagick;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\git;f:\\openserver\\modules\\git\\bin;f:\\openserver\\modules\\git\\mingw\\bin;f:\\openserver\\modules\\git\\cmd;f:\\openserver\\modules\\database\\MySQL-5.7\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'regicon'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/openserver/domains/xakaton/frontend/web/index.php'
+    'REMOTE_PORT' => '7202'
+    'REDIRECT_URL' => '/task/add'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/task/add'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1576393957.215
+    'REQUEST_TIME' => 1576393957
+    'argv' => []
+    'argc' => 0
+]
+2019-12-15 10:13:09 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'kvdate' does not exist: F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src/messages/Uz-uz/kvdate.php Fallback file does not exist as well: F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src/messages/Uz/kvdate.php
+    in F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src\DatePicker.php:373
+    in F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src\DatePicker.php:398
+    in F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src\DatePicker.php:347
+2019-12-15 10:13:09 [127.0.0.1][1][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'r5brrejn7uiqm5vg2l5lfqg1d3cc2187'
+    '_identity-frontend' => '2c2478204b6fa941e2a8227009b2c7f2ad328cefae88ac52ca3d74d78fd9c802a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"YvwH4Vn2WuCw60QsXd5zXKCIGUd-UmBY\",2592000]\";}'
+    '_csrf-frontend' => 'b45c90c4fc785cb346dfff46d1cf32ff8b0d9812aca8399676196a096e40c35da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fyOcDxyUen1DhCIvRtlxH4bQC0VEYIbn\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'register-success' => -1
+    ]
+    '__returnUrl' => 'http://regicon/'
+    'register-success' => 'Ro\'yxatdan o\'tishni yakunlash uchun, elektron pochtangizni tekshiring!'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'regicon'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://regicon/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=r5brrejn7uiqm5vg2l5lfqg1d3cc2187; _identity-frontend=2c2478204b6fa941e2a8227009b2c7f2ad328cefae88ac52ca3d74d78fd9c802a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22YvwH4Vn2WuCw60QsXd5zXKCIGUd-UmBY%22%2C2592000%5D%22%3B%7D; _csrf-frontend=b45c90c4fc785cb346dfff46d1cf32ff8b0d9812aca8399676196a096e40c35da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fyOcDxyUen1DhCIvRtlxH4bQC0VEYIbn%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP-7.2-x64\\ext;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear\\bin;f:\\openserver\\modules\\php\\PHP-7.2-x64;f:\\openserver\\modules\\imagemagick;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\git;f:\\openserver\\modules\\git\\bin;f:\\openserver\\modules\\git\\mingw\\bin;f:\\openserver\\modules\\git\\cmd;f:\\openserver\\modules\\database\\MySQL-5.7\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'regicon'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/openserver/domains/xakaton/frontend/web/index.php'
+    'REMOTE_PORT' => '7260'
+    'REDIRECT_URL' => '/task/add'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/task/add'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1576393988.998
+    'REQUEST_TIME' => 1576393988
+    'argv' => []
+    'argc' => 0
+]
+2019-12-15 10:16:43 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'kvdate' does not exist: F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src/messages/Uz-uz/kvdate.php Fallback file does not exist as well: F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src/messages/Uz/kvdate.php
+    in F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src\DatePicker.php:373
+    in F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src\DatePicker.php:398
+    in F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src\DatePicker.php:347
+2019-12-15 10:16:43 [127.0.0.1][1][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'f0lkq06cjkt8i3bsav60kaepn7ecsunp'
+    '_identity-frontend' => '1848680b98df3e6cf14c64313f000276abe866f5c368a0d6f76dbd6d6bed517ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"t0dBSudFFtbYK-jKVkS1y-2FrsMLIuWw\",2592000]\";}'
+    '_csrf-frontend' => '66c5d4823c125bd11eb37d28bc9b1f8442f414d6927ab536f8128bfd04fb7890a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"n7jnhHIAKygNqp8yA0KAZramUODI3sRQ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://regicon/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'regicon'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://regicon/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=f0lkq06cjkt8i3bsav60kaepn7ecsunp; _identity-frontend=1848680b98df3e6cf14c64313f000276abe866f5c368a0d6f76dbd6d6bed517ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22t0dBSudFFtbYK-jKVkS1y-2FrsMLIuWw%22%2C2592000%5D%22%3B%7D; _csrf-frontend=66c5d4823c125bd11eb37d28bc9b1f8442f414d6927ab536f8128bfd04fb7890a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22n7jnhHIAKygNqp8yA0KAZramUODI3sRQ%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP-7.2-x64\\ext;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear\\bin;f:\\openserver\\modules\\php\\PHP-7.2-x64;f:\\openserver\\modules\\imagemagick;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\git;f:\\openserver\\modules\\git\\bin;f:\\openserver\\modules\\git\\mingw\\bin;f:\\openserver\\modules\\git\\cmd;f:\\openserver\\modules\\database\\MySQL-5.7\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'regicon'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/openserver/domains/xakaton/frontend/web/index.php'
+    'REMOTE_PORT' => '7484'
+    'REDIRECT_URL' => '/task/add'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/task/add'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1576394203.023
+    'REQUEST_TIME' => 1576394203
+    'argv' => []
+    'argc' => 0
+]
+2019-12-15 10:21:47 [127.0.0.1][2][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'kvdate' does not exist: F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src/messages/Uz-uz/kvdate.php Fallback file does not exist as well: F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src/messages/Uz/kvdate.php
+    in F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src\DatePicker.php:373
+    in F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src\DatePicker.php:398
+    in F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src\DatePicker.php:347
+2019-12-15 10:21:47 [127.0.0.1][2][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ktmh12jicctbvt1piba0fojpuej6g6ui'
+    '_identity-frontend' => '6ff58b2f9b862d256ab7ece33677494d9a01d06e54a87ba7a4067f87c4c14dbca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"BCMkY2HSFrvMzvLmQisLv0LYjuqPOMk-\",2592000]\";}'
+    '_csrf-frontend' => 'c6a00a6b0322384bae225eadf754047f81abfa377b3df68b1d789af8189e2985a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XN1VVVvaK75EAnS7yPqeV9YpoyKGxrjA\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'register-success' => -1
+    ]
+    '__returnUrl' => 'http://regicon/'
+    'register-success' => 'Ro\'yxatdan o\'tishni yakunlash uchun, elektron pochtangizni tekshiring!'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'regicon'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://regicon/branch/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=ktmh12jicctbvt1piba0fojpuej6g6ui; _identity-frontend=6ff58b2f9b862d256ab7ece33677494d9a01d06e54a87ba7a4067f87c4c14dbca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22BCMkY2HSFrvMzvLmQisLv0LYjuqPOMk-%22%2C2592000%5D%22%3B%7D; _csrf-frontend=c6a00a6b0322384bae225eadf754047f81abfa377b3df68b1d789af8189e2985a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XN1VVVvaK75EAnS7yPqeV9YpoyKGxrjA%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP-7.2-x64\\ext;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear\\bin;f:\\openserver\\modules\\php\\PHP-7.2-x64;f:\\openserver\\modules\\imagemagick;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\git;f:\\openserver\\modules\\git\\bin;f:\\openserver\\modules\\git\\mingw\\bin;f:\\openserver\\modules\\git\\cmd;f:\\openserver\\modules\\database\\MySQL-5.7\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'regicon'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/openserver/domains/xakaton/frontend/web/index.php'
+    'REMOTE_PORT' => '7741'
+    'REDIRECT_URL' => '/task/add'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/task/add'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1576394507.585
+    'REQUEST_TIME' => 1576394507
+    'argv' => []
+    'argc' => 0
+]
+2019-12-15 10:25:18 [127.0.0.1][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The HTTP status code is invalid: Array in F:\openserver\domains\xakaton\vendor\yiisoft\yii2\web\Response.php:285
+Stack trace:
+#0 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\web\Response.php(888): yii\web\Response->setStatusCode(Array)
+#1 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\web\Controller.php(204): yii\web\Response->redirect('view', Array)
+#2 F:\openserver\domains\xakaton\frontend\controllers\TaskController.php(119): yii\web\Controller->redirect('view', Array)
+#3 [internal function]: frontend\controllers\TaskController->actionClose()
+#4 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('close', Array)
+#7 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('task/close', Array)
+#8 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 F:\openserver\domains\xakaton\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2019-12-15 10:25:18 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ktmh12jicctbvt1piba0fojpuej6g6ui'
+    '_identity-frontend' => '6ff58b2f9b862d256ab7ece33677494d9a01d06e54a87ba7a4067f87c4c14dbca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"BCMkY2HSFrvMzvLmQisLv0LYjuqPOMk-\",2592000]\";}'
+    '_csrf-frontend' => 'c6a00a6b0322384bae225eadf754047f81abfa377b3df68b1d789af8189e2985a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XN1VVVvaK75EAnS7yPqeV9YpoyKGxrjA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'regicon'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://regicon/task/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=ktmh12jicctbvt1piba0fojpuej6g6ui; _identity-frontend=6ff58b2f9b862d256ab7ece33677494d9a01d06e54a87ba7a4067f87c4c14dbca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22BCMkY2HSFrvMzvLmQisLv0LYjuqPOMk-%22%2C2592000%5D%22%3B%7D; _csrf-frontend=c6a00a6b0322384bae225eadf754047f81abfa377b3df68b1d789af8189e2985a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XN1VVVvaK75EAnS7yPqeV9YpoyKGxrjA%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP-7.2-x64\\ext;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear\\bin;f:\\openserver\\modules\\php\\PHP-7.2-x64;f:\\openserver\\modules\\imagemagick;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\git;f:\\openserver\\modules\\git\\bin;f:\\openserver\\modules\\git\\mingw\\bin;f:\\openserver\\modules\\git\\cmd;f:\\openserver\\modules\\database\\MySQL-5.7\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'regicon'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/openserver/domains/xakaton/frontend/web/index.php'
+    'REMOTE_PORT' => '7827'
+    'REDIRECT_URL' => '/task/close'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/task/close?id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1576394718.374
+    'REQUEST_TIME' => 1576394718
+    'argv' => [
+        0 => 'id=1'
+    ]
+    'argc' => 1
+]
+2019-12-15 10:26:02 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Please specify the "model" property. in F:\openserver\domains\xakaton\vendor\yiisoft\yii2\widgets\DetailView.php:133
+Stack trace:
+#0 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\widgets\DetailView->init()
+#1 [internal function]: yii\base\BaseObject->__construct(Array)
+#2 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\di\Container.php(400): ReflectionClass->newInstanceArgs(Array)
+#3 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#4 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\BaseYii.php(351): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#5 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#6 F:\openserver\domains\xakaton\frontend\views\task\view.php(162): yii\base\Widget::widget(Array)
+#7 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\View.php(348): require('F:\\openserver\\d...')
+#8 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('F:\\openserver\\d...', Array)
+#9 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('F:\\openserver\\d...', Array, Object(frontend\controllers\TaskController))
+#10 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('view', Array, Object(frontend\controllers\TaskController))
+#11 F:\openserver\domains\xakaton\frontend\controllers\TaskController.php(108): yii\base\Controller->render('view', Array)
+#12 [internal function]: frontend\controllers\TaskController->actionView()
+#13 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#16 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('task/view', Array)
+#17 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 F:\openserver\domains\xakaton\frontend\web\index.php(17): yii\base\Application->run()
+#19 {main}
+2019-12-15 10:26:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'id1' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ktmh12jicctbvt1piba0fojpuej6g6ui'
+    '_identity-frontend' => '6ff58b2f9b862d256ab7ece33677494d9a01d06e54a87ba7a4067f87c4c14dbca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"BCMkY2HSFrvMzvLmQisLv0LYjuqPOMk-\",2592000]\";}'
+    '_csrf-frontend' => 'c6a00a6b0322384bae225eadf754047f81abfa377b3df68b1d789af8189e2985a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XN1VVVvaK75EAnS7yPqeV9YpoyKGxrjA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'regicon'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://regicon/task/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=ktmh12jicctbvt1piba0fojpuej6g6ui; _identity-frontend=6ff58b2f9b862d256ab7ece33677494d9a01d06e54a87ba7a4067f87c4c14dbca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22BCMkY2HSFrvMzvLmQisLv0LYjuqPOMk-%22%2C2592000%5D%22%3B%7D; _csrf-frontend=c6a00a6b0322384bae225eadf754047f81abfa377b3df68b1d789af8189e2985a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XN1VVVvaK75EAnS7yPqeV9YpoyKGxrjA%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP-7.2-x64\\ext;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear\\bin;f:\\openserver\\modules\\php\\PHP-7.2-x64;f:\\openserver\\modules\\imagemagick;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\git;f:\\openserver\\modules\\git\\bin;f:\\openserver\\modules\\git\\mingw\\bin;f:\\openserver\\modules\\git\\cmd;f:\\openserver\\modules\\database\\MySQL-5.7\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'regicon'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/openserver/domains/xakaton/frontend/web/index.php'
+    'REMOTE_PORT' => '7853'
+    'REDIRECT_URL' => '/task/view'
+    'REDIRECT_QUERY_STRING' => 'id1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id1'
+    'REQUEST_URI' => '/task/view?id1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1576394762.61
+    'REQUEST_TIME' => 1576394762
+    'argv' => [
+        0 => 'id1'
+    ]
+    'argc' => 1
+]
+2019-12-15 10:30:32 [127.0.0.1][5][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'kvdate' does not exist: F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src/messages/Uz-uz/kvdate.php Fallback file does not exist as well: F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src/messages/Uz/kvdate.php
+    in F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src\DatePicker.php:373
+    in F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src\DatePicker.php:398
+    in F:\openserver\domains\xakaton\vendor\kartik-v\yii2-widget-datepicker\src\DatePicker.php:347
+2019-12-15 10:30:32 [127.0.0.1][5][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'rv88lh2pgv3afp1211bssemiusgp7jjo'
+    '_identity-frontend' => 'dd952433c0d46f92c7aa7e5d3ea4f740bf911c2f1fb9938fa1d48bfe9edca6a3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[5,\"4giKS6yayyrecJOjXrMlGz3TQPlVTU3X\",2592000]\";}'
+    '_csrf-frontend' => 'bb8b3eefb42ab71408831ddc06afb000dd65f38a1063dff8a376e1e5e9a57992a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Aaze26NMG88E5aIdPHeBzoc0Xs-TpR13\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'register-success' => -1
+    ]
+    '__returnUrl' => 'http://regicon/'
+    'register-success' => 'Ro\'yxatdan o\'tishni yakunlash uchun, elektron pochtangizni tekshiring!'
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'regicon'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://regicon/branch/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=rv88lh2pgv3afp1211bssemiusgp7jjo; _identity-frontend=dd952433c0d46f92c7aa7e5d3ea4f740bf911c2f1fb9938fa1d48bfe9edca6a3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%224giKS6yayyrecJOjXrMlGz3TQPlVTU3X%22%2C2592000%5D%22%3B%7D; _csrf-frontend=bb8b3eefb42ab71408831ddc06afb000dd65f38a1063dff8a376e1e5e9a57992a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Aaze26NMG88E5aIdPHeBzoc0Xs-TpR13%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP-7.2-x64\\ext;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear\\bin;f:\\openserver\\modules\\php\\PHP-7.2-x64;f:\\openserver\\modules\\imagemagick;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\git;f:\\openserver\\modules\\git\\bin;f:\\openserver\\modules\\git\\mingw\\bin;f:\\openserver\\modules\\git\\cmd;f:\\openserver\\modules\\database\\MySQL-5.7\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'regicon'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/openserver/domains/xakaton/frontend/web/index.php'
+    'REMOTE_PORT' => '8037'
+    'REDIRECT_URL' => '/task/add'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/task/add'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1576395032.144
+    'REQUEST_TIME' => 1576395032
+    'argv' => []
+    'argc' => 0
+]
+2019-12-15 10:32:20 [127.0.0.1][6][9n8bdbfof33va770c5ntkmn41dfpmv8d][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: my/deadline in F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('deadline', Array)
+#1 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('my/deadline', Array)
+#2 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\openserver\domains\xakaton\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in F:\openserver\domains\xakaton\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\openserver\domains\xakaton\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\openserver\domains\xakaton\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-12-15 10:32:20 [127.0.0.1][6][9n8bdbfof33va770c5ntkmn41dfpmv8d][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '9n8bdbfof33va770c5ntkmn41dfpmv8d'
+    '_csrf-frontend' => '488327c09511c0eaf432a9fbde6ff52e0986408e9172c87fd7bf7d5c3ac333eaa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"a8RpBe3IRRlLVtEjsQwHFtVAuF-pDqf6\";}'
+    '_identity-frontend' => '702d53dc021cc30080e7628fb6971ddb993293c1688df04d5ea4a27617e83bdba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"Bssp4knulSpmz3LWqCrDBDfznZZI7SSh\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://regicon/'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'regicon'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://regicon/my/all'
+    'HTTP_COOKIE' => 'advanced-frontend=9n8bdbfof33va770c5ntkmn41dfpmv8d; _csrf-frontend=488327c09511c0eaf432a9fbde6ff52e0986408e9172c87fd7bf7d5c3ac333eaa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22a8RpBe3IRRlLVtEjsQwHFtVAuF-pDqf6%22%3B%7D; _identity-frontend=702d53dc021cc30080e7628fb6971ddb993293c1688df04d5ea4a27617e83bdba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22Bssp4knulSpmz3LWqCrDBDfznZZI7SSh%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP-7.2-x64\\ext;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear;f:\\openserver\\modules\\php\\PHP-7.2-x64\\pear\\bin;f:\\openserver\\modules\\php\\PHP-7.2-x64;f:\\openserver\\modules\\imagemagick;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\git;f:\\openserver\\modules\\git\\bin;f:\\openserver\\modules\\git\\mingw\\bin;f:\\openserver\\modules\\git\\cmd;f:\\openserver\\modules\\database\\MySQL-5.7\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64\\bin;f:\\openserver\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'regicon'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/openserver/domains/xakaton/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/openserver/domains/xakaton/frontend/web/index.php'
+    'REMOTE_PORT' => '8201'
+    'REDIRECT_URL' => '/my/deadline'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/my/deadline'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1576395140.422
+    'REQUEST_TIME' => 1576395140
+    'argv' => []
+    'argc' => 0
+]

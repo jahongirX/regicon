@@ -115,9 +115,7 @@ class TaskController extends AppController
         $model = Task::findOne($id);
         $model->status = 5;
         if($model->save()){
-            return $this->redirect('view',[
-                'id'=>$id
-            ]);
+            return $this->redirect('view?id='.$id);
         }
     }
 

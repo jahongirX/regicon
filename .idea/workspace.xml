@@ -3,20 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5422c513-6678-4207-878f-512047df9ed3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/models/SiteUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/SiteUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/controllers/BranchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/BranchController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/TaskController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/models/SignupForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/models/SignupForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/SiteController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/branch/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/branch/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/branch/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/branch/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/task/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/task/add.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576303825417</updated>
       <workItem from="1576303826578" duration="37882000" />
-      <workItem from="1576391462839" duration="1986000" />
+      <workItem from="1576391462839" duration="3180000" />
     </task>
     <servers />
   </component>

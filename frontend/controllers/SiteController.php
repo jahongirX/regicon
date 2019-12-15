@@ -149,7 +149,7 @@ class SiteController extends AppController
         if ($model->load(Yii::$app->request->post())) {
             $model->district_id = 0;
             $model->rank = 10;
-            $model->creator = 1;
+            $model->creator = 0;
             $model->fio = Company::findOne($model->company_id)->director;
             $model->phone = Company::findOne($model->company_id)->phone;
             if($model->signup()){

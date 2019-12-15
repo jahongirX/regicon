@@ -28,7 +28,7 @@ use yii\helpers\Html;
     <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
 
         <div class="card card-body">
-
+<!--            --><?php //print_r($branches) ?>
             <?php if(!empty($branches)): ?>
 
                     <?php $form = ActiveForm::begin([

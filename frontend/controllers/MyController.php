@@ -68,7 +68,7 @@ class MyController extends AppController
         $searchModel = new TaskSearch();
 
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-        $dataProvider->query->orderBy(['id'=>SORT_DESC])->andWhere(['user_id'=>$user->id])->andWhere(['status'=>4]);
+        $dataProvider->query->orderBy(['id'=>SORT_DESC])->andWhere(['user_id'=>$user->id])->andWhere(['status'=>5]);
         $dataProvider->pagination->pageSize = Yii::$app->params['pagination'];
         return $this->render('closed',[
             'searchModel' => $searchModel,
