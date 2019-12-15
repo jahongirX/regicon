@@ -74,7 +74,18 @@ class TaskController extends AppController
                     }
 
                     if($task->save()){
+                        $users = SiteUser::find()->where(['id'=>$model->user_id])->all();
 
+                        foreach ($users as $user) {
+                            $tpl = "Xurmatli <strong>{$user->username}</strong> siz uchun yangi topshiriq yaratildi! \n Registratsiya raqami : <strong>{$task->registration_id}</strong>";
+                            $query = [
+                                'chat_id' => $user->telegram_id,
+                                'text' => $tpl,
+                                'parse_mode' => 'HTML'
+                            ];
+
+                            $text = Yii::$app->httpclient->get('https://api.telegram.org/bot1064257519:AAEnK9ycr1oLSXhKTB6o54J6Hxyt3irf1As/sendMessage?' . http_build_query($query));
+                        }
                     }else{
                         return print_r($task->errors);
                     }

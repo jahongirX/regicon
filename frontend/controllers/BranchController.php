@@ -76,7 +76,14 @@ class BranchController extends AppController
         }
         $id = Yii::$app->request->get('id');
         $model = SiteUser::findOne($id);
+        if($model->load(Yii::$app->request->post())){
+            if($model->save()){
+                return $this->redirect('index');
+            }else{
+                return print_r($model->errors);
+            }
 
+        }
         return $this->render('update',[
             'model' => $model,
             'user' => $user

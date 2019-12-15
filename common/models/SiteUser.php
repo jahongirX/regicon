@@ -26,6 +26,7 @@ use yii\web\IdentityInterface;
  * @property int $rank
  * @property string $fio
  * @property string $phone
+ * * @property string $telegram_id
  */
 class SiteUser extends ActiveRecord implements IdentityInterface
 {

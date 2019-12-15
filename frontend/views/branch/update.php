@@ -32,6 +32,8 @@ use yii\helpers\Html;
 
             <div class="col-md-12">
 
+
+
                 <div class="card card-body">
 
                     <?php $form = ActiveForm::begin([
@@ -50,11 +52,13 @@ use yii\helpers\Html;
 
                     <?= $form->field($model, 'district_id')->dropDownList(\yii\helpers\ArrayHelper::map(\common\models\District::find()->where(['parent'=>8])->all(),'id','name')) ?>
 
+                    <?= $form->field($model, 'fio')->textInput() ?>
+
+                    <?= $form->field($model, 'phone')->textInput() ?>
+
+                    <?= $form->field($model, 'telegram_id')->textInput() ?>
+
                     <?= $form->field($model, 'email')->textInput(['options'=>['type'=>'email']]) ?>
-
-                    <?= $form->field($model, 'username')->textInput() ?>
-
-                    <?= $form->field($model, 'password_hash')->passwordInput() ?>
 
                     <div class="form-group">
                         <?= Html::submitButton('Saqlash', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>

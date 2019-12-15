@@ -21,6 +21,7 @@ class SignupForm extends Model
     public $rank;
     public $fio;
     public $phone;
+    public $telegram_id;
 
     /**
      * {@inheritdoc}
@@ -34,7 +35,7 @@ class SignupForm extends Model
             ['username', 'string', 'min' => 2, 'max' => 255],
 
             [['company_id','district_id','creator','rank'], 'integer'],
-            [['phone','fio'],'string'],
+            [['phone','fio','telegram_id'],'string'],
 
             ['email', 'trim'],
             ['email', 'required'],
@@ -78,6 +79,7 @@ class SignupForm extends Model
         $user->rank = $this->rank;
         $user->fio = $this->fio;
         $user->phone = $this->phone;
+        $user->telegram_id = $this->telegram_id;
         $user->setPassword($this->password);
         $user->generateAuthKey();
         return $user->save();
