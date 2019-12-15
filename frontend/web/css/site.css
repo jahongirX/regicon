@@ -1,0 +1,52 @@
+.kt-aside .kt-aside-menu{
+    margin-top: 0 !important;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+.kt-aside-menu .kt-menu__nav>.kt-menu__item>.kt-menu__link{
+    padding: 0;
+    text-align: center;
+}
+.kt-aside-menu .kt-menu__nav>.kt-menu__item>.kt-menu__link i,
+.kt-aside-menu .kt-menu__nav>.kt-menu__item>.kt-menu__link span{
+    border: 1px solid #eee;
+    padding: 5px !important;
+    align-items: center !important;
+    border-bottom: none;
+}
+
+.kt-aside-menu .kt-menu__nav>.kt-menu__item:last-child>.kt-menu__link i,
+.kt-aside-menu .kt-menu__nav>.kt-menu__item:last-child>.kt-menu__link span{
+    border-bottom: 1px solid #eee;
+}
+.kt-aside-menu .kt-menu__nav>.kt-menu__item.kt-menu__item--active{
+    margin-bottom: 10px;
+}
+.btn [class*=" flaticon-"], .btn [class*=" flaticon2-"], .btn [class^=flaticon-], .btn [class^=flaticon2-]{
+    font-size: 1rem;
+}
+
+.card.card-body{
+    box-shadow: 0 0 28px 0 rgba(82,63,105,.08);
+}
+.badge{
+    white-space: normal !important;
+}
+.btn-file input[type=file]{
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    opacity: 0;
+    background: none repeat scroll 0 0 transparent;
+    cursor: inherit;
+    display: block;
+}
+.input-group .form-control.file-caption{
+    width: 75%;
+}
+.input-group-addon, .input-group-btn{
+    width: 60%;
+}
