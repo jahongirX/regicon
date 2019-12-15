@@ -1,7 +1,6 @@
 <?php
 
 use yii\grid\GridView;
-use yii\helpers\Html;
 
 ?>
 <div class="kt-content  kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" id="kt_content">
@@ -14,7 +13,7 @@ use yii\helpers\Html;
                 <div class="kt-subheader__breadcrumbs">
                     <a href="<?=\yii\helpers\Url::to(['/'])?>" class="kt-subheader__breadcrumbs-home"><i class="flaticon2-shelter"></i> Asosiy sahifa</a>
                     <span class="kt-subheader__breadcrumbs-separator"></span>
-                    <a class="kt-subheader__breadcrumbs-link"> Barcha topshiriqlar </a>
+                    <a class="kt-subheader__breadcrumbs-link"> Barcha topshiriqlar</a>
                     <!-- <span class="kt-subheader__breadcrumbs-link kt-subheader__breadcrumbs-link--active">Active link</span> -->
                 </div>
             </div>
@@ -50,7 +49,7 @@ use yii\helpers\Html;
                                 'contentOptions' => ['class' => 'v-align-middle'],
                                 'format' => 'html',
                                 'value' => function($data){
-                                    return "<a href='". \yii\helpers\Url::to(['task/view','id'=>$data->id]) ."'>" . $data->registration_id . "</a>";
+                                    return "<a href='". \yii\helpers\Url::to(['my/view','id'=>$data->id]) ."'>" . $data->registration_id . "</a>";
                                 }
                             ],
 

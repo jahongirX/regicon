@@ -32,8 +32,6 @@ use yii\helpers\Html;
 
             <div class="col-md-12">
 
-
-
                 <div class="card card-body">
 
                     <?php $form = ActiveForm::begin([
@@ -56,7 +54,7 @@ use yii\helpers\Html;
 
                     <?= $form->field($model, 'username')->textInput() ?>
 
-                    <?= $form->field($model, 'password')->passwordInput() ?>
+                    <?= $form->field($model, 'password_hash')->passwordInput() ?>
 
                     <div class="form-group">
                         <?= Html::submitButton('Saqlash', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>

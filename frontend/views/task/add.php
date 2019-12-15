@@ -29,9 +29,7 @@ use yii\helpers\Html;
 
         <div class="card card-body">
 
-
-
-
+            <?php if(!empty($branches)): ?>
 
                     <?php $form = ActiveForm::begin([
                         'id' => 'task-create',
@@ -88,7 +86,7 @@ use yii\helpers\Html;
                             'showUpload' => false ,
                             'showPreview' => true ,
                             'browseClass' => 'btn btn-primary',
-                            'browseIcon' => '<i style="color:red" class="flaticon2-psd"></i> ' ,
+                            'browseIcon' => '<i style="color:white" class="flaticon2-file"></i> ' ,
                             'allowedFileExtensions'=>['pdf','doc','docx','zip','jpg','png','jpeg','xls','xlsx'],
                         ] ,
                         'options' => ['multiple'=>false,'required'=>true] ,
@@ -109,6 +107,15 @@ use yii\helpers\Html;
                 </div>
 
             </div>
+
+            <?php else: ?>
+                <div class="alert alert-warning">
+                    Topshiriq yuborish uchun sizda Filial tashkiloti qo'shilmagan, dastavval filial qo'shing!
+                </div>
+                <div>
+                    <a href="<?=\yii\helpers\Url::to(['branch/add'])?>" class="btn btn-info">Filial qo'shish</a>
+                </div>
+            <?php endif; ?>
 
         </div>
 

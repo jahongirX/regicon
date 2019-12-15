@@ -25,21 +25,21 @@
                 </li>
 
                 <li class="kt-menu__item">
-                    <a href="#" class="kt-menu__link ">
+                    <a href="<?=\yii\helpers\Url::to(['/task/index'])?>" class="kt-menu__link ">
                         <i class="kt-menu__link-icon flaticon-list-2" style="color: cornflowerblue"></i>
                         <span class="kt-menu__link-text">Barcha topshiriqlar</span>
                     </a>
                 </li>
 
                 <li class="kt-menu__item">
-                    <a href="#" class="kt-menu__link ">
+                    <a href="<?=\yii\helpers\Url::to(['task/closed'])?>" class="kt-menu__link ">
                         <i class="kt-menu__link-icon flaticon2-checkmark" style="color: limegreen"></i>
                         <span class="kt-menu__link-text">Yopilgan topshiriqlar</span>
                     </a>
                 </li>
 
                 <li class="kt-menu__item">
-                    <a href="#" class="kt-menu__link ">
+                    <a href="<?=\yii\helpers\Url::to(['task/deadline'])?>" class="kt-menu__link ">
                         <i class="kt-menu__link-icon flaticon-exclamation" style="color: orangered"></i>
                         <span class="kt-menu__link-text">Muddati buzilganlari</span>
                     </a>
@@ -69,21 +69,21 @@
                 <?php elseif($user->rank == 100): ?>
 
                     <li class="kt-menu__item">
-                        <a href="#" class="kt-menu__link ">
+                        <a href="<?=\yii\helpers\Url::to(['my/all'])?>" class="kt-menu__link ">
                             <i class="kt-menu__link-icon flaticon-list-2" style="color: cornflowerblue"></i>
                             <span class="kt-menu__link-text">Barcha topshiriqlar</span>
                         </a>
                     </li>
 
                     <li class="kt-menu__item">
-                        <a href="#" class="kt-menu__link ">
+                        <a href="<?=\yii\helpers\Url::to(['my/closed'])?>" class="kt-menu__link ">
                             <i class="kt-menu__link-icon flaticon2-checkmark" style="color: limegreen"></i>
                             <span class="kt-menu__link-text">Yopilgan topshiriqlar</span>
                         </a>
                     </li>
 
                     <li class="kt-menu__item">
-                        <a href="#" class="kt-menu__link ">
+                        <a href="<?=\yii\helpers\Url::to(['my/deadline'])?>" class="kt-menu__link ">
                             <i class="kt-menu__link-icon flaticon-exclamation" style="color: orangered"></i>
                             <span class="kt-menu__link-text">Muddati buzilganlari</span>
                         </a>

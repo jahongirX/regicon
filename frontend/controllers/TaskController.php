@@ -9,6 +9,7 @@ use common\models\SiteUser;
 use common\models\Task;
 use common\models\TaskSearch;
 use Yii;
+use yii\db\Query;
 use yii\web\Controller;
 use yii\web\UploadedFile;
 use yii\widgets\ActiveForm;
@@ -25,6 +26,8 @@ class TaskController extends AppController
         $searchModel = new TaskSearch();
 
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        $branches = (new Query())->select('id')->from('site_user')->where(['creator'=>$user->id]);
+        $dataProvider->query->andWhere(['user_id'=>$branches]);
         $dataProvider->query->orderBy(['id'=>SORT_DESC]);
         $dataProvider->pagination->pageSize = Yii::$app->params['pagination'];
 
@@ -42,7 +45,10 @@ class TaskController extends AppController
             Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
             return ActiveForm::validate($model);
         }
+        $user = SiteUser::findOne(Yii::$app->user->getId());
 
+        $branches = SiteUser::find()->where(['creator'=>$user->id])->all();
+//        print_r($branches);die;
 
         if($model->load(Yii::$app->request->post())){
             $model->deadline = date('Y-m-d',strtotime($model->deadline));
@@ -79,7 +85,68 @@ class TaskController extends AppController
         }
 
         return $this->render('add',[
+            'model' => $model,
+            'branches' => $branches
+        ]);
+    }
+
+    public function actionView(){
+        $id = Yii::$app->request->get('id');
+        $model = Task::findOne($id);
+        return $this->render('view',[
             'model' => $model
+        ]);
+
+    }
+
+    public function actionClose(){
+        $id = Yii::$app->request->get('id');
+        $model = Task::findOne($id);
+        $model->status = 5;
+        if($model->save()){
+            return $this->redirect('view',[
+                'id'=>$id
+            ]);
+        }
+    }
+
+    public function actionClosed(){
+        $user = SiteUser::findOne(Yii::$app->user->getId());
+        if($user->rank > 10){
+            return $this->goBack();
+        }
+
+        $searchModel = new TaskSearch();
+
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        $branches = (new Query())->select('id')->from('site_user')->where(['creator'=>$user->id]);
+        $dataProvider->query->andWhere(['user_id'=>$branches]);
+        $dataProvider->query->orderBy(['id'=>SORT_DESC])->andWhere(['status'=>5]);
+        $dataProvider->pagination->pageSize = Yii::$app->params['pagination'];
+
+        return $this->render('closed',[
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+        ]);
+    }
+
+    public function actionDeadline(){
+        $user = SiteUser::findOne(Yii::$app->user->getId());
+        if($user->rank > 10){
+            return $this->goBack();
+        }
+
+        $searchModel = new TaskSearch();
+
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        $branches = (new Query())->select('id')->from('site_user')->where(['creator'=>$user->id]);
+        $dataProvider->query->andWhere(['user_id'=>$branches]);
+        $dataProvider->query->orderBy(['id'=>SORT_DESC])->andWhere(['status'=>3]);
+        $dataProvider->pagination->pageSize = Yii::$app->params['pagination'];
+
+        return $this->render('closed',[
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
         ]);
     }
 }

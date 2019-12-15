@@ -65,6 +65,20 @@ class BranchController extends AppController
 
         return $this->render('add',[
             'model' => $model,
+            'user' => $user,
+        ]);
+    }
+
+    public function actionUpdate(){
+        $user = SiteUser::findOne(Yii::$app->user->getId());
+        if($user->rank > 10){
+            return $this->goBack();
+        }
+        $id = Yii::$app->request->get('id');
+        $model = SiteUser::findOne($id);
+
+        return $this->render('update',[
+            'model' => $model,
             'user' => $user
         ]);
     }

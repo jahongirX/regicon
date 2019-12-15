@@ -79,7 +79,7 @@ use yii\helpers\Html;
                                 $code = <<<BUTTONS
 	                                                <div class="btn-group flex-center">
                                                         <a href="/{$controller}/view/{$model->id}" class="btn btn-secondary"><i class="flaticon2-trash"></i></a>
-	                                                    <a href="/{$controller}/update/{$model->id}" class="btn btn-primary"><i class="flaticon-edit"></i></a>
+	                                                    <a href="/{$controller}/update?id={$model->id}" class="btn btn-primary"><i class="flaticon-edit"></i></a>
 	                                                </div>
 BUTTONS;
                                 return $code;

@@ -3,6 +3,7 @@ namespace frontend\controllers;
 
 use common\models\Company;
 use common\models\SiteUser;
+use common\models\TaskSearch;
 use frontend\models\ResendVerificationEmailForm;
 use frontend\models\VerifyEmailForm;
 use Yii;
@@ -76,7 +77,25 @@ class SiteController extends AppController
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $user = SiteUser::findOne(Yii::$app->user->getId());
+        $searchModel = new TaskSearch();
+
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        $dataProvider->query->orderBy(['id'=>SORT_DESC]);
+        if($user->rank == 100){
+            $dataProvider->query->andWhere(['user_id'=>$user->id])->andWhere(['status' => [0,2,3,4]]);
+        }
+        if($user->rank == 10){
+            $branches = (new Query())->select('id')->from('site_user')->where(['creator'=>$user->id]);
+            $dataProvider->query->andWhere(['user_id'=>$branches]);
+        }
+        $dataProvider->pagination->pageSize = Yii::$app->params['pagination'];
+
+        return $this->render('index',[
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+            'user' => $user
+        ]);
     }
 
     /**
@@ -128,7 +147,11 @@ class SiteController extends AppController
         }
 
         if ($model->load(Yii::$app->request->post())) {
-
+            $model->district_id = 0;
+            $model->rank = 10;
+            $model->creator = 1;
+            $model->fio = Company::findOne($model->company_id)->director;
+            $model->phone = Company::findOne($model->company_id)->phone;
             if($model->signup()){
                 Yii::$app->session->setFlash('register-success',"Ro'yxatdan o'tishni yakunlash uchun, elektron pochtangizni tekshiring!");
                 return $this->goBack();

@@ -36,6 +36,8 @@ class Task extends \yii\db\ActiveRecord
         return 'task';
     }
 
+    public $daysLeft;
+
     public function behaviors()
     {
         return [
@@ -71,20 +73,21 @@ class Task extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'registration_id' => 'Registration ID',
-            'category_id' => 'Category ID',
-            'user_id' => 'User ID',
-            'description' => 'Description',
-            'type_id' => 'Type ID',
-            'file' => 'File',
-            'deadline' => 'Deadline',
-            'created_date' => 'Created Date',
-            'updated_date' => 'Updated Date',
-            'view_status' => 'View Status',
-            'deadline_status' => 'Deadline Status',
+            'registration_id' => 'Registratsiya raqami',
+            'category_id' => 'Kategoriya',
+            'user_id' => 'Filial',
+            'description' => "Xabar",
+            'type_id' => 'Topshiriq turi',
+            'file' => 'Birikitirilgan fayl',
+            'deadline' => 'Muddat',
+            'created_date' => 'Yaratilgan vaqti',
+            'updated_date' => "O'zgartirilgan vaqti",
+            'view_status' => 'Ochildi/Ochilmadi',
+            'deadline_status' => 'Muddati buzilganligi',
             'status' => 'Status',
-            'answer_file' => 'Answer File',
-            'answer_description' => 'Answer Description',
+            'answer_file' => 'Javob Fayl',
+            'answer_description' => 'Javob xati',
+            'daysLeft' => 'Kun qoldi',
         ];
     }
 
@@ -95,11 +98,11 @@ class Task extends \yii\db\ActiveRecord
         $districts = District::find()->where('parent=8')->all();
 
         foreach ($districts as $district){
-            $users = SiteUser::find()->where(['creator'=>$user->id])->andWhere(['rank' => 100])->all();
+            $users = SiteUser::find()->where(['creator'=>$user->id])->andWhere(['rank' => 100])->andWhere(['district_id'=>$district->id])->all();
             if(!empty($users)){
                 $userOptions = [];
-                foreach ($users as $user) {
-                    $userOptions[$user->id] = $user->username;
+                foreach ($users as $item) {
+                    $userOptions[$item->id] = $item->username;
                 }
                 $options[$district->name] = $userOptions;
             }else{
@@ -109,5 +112,14 @@ class Task extends \yii\db\ActiveRecord
         }
 
         return $options;
+    }
+
+    public static function daysToDeadline($task_id){
+        $task = Task::findOne($task_id);
+        $now = time();
+        $deadline = strtotime($task->deadline);
+
+        $days = ceil(($deadline - $now) / (60 * 60 * 24));
+        return $days;
     }
 }
